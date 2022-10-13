@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+    <title>按钮控制播放音乐</title> 
+     <script src="../Js/jquery-1.11.1.min.js"></script> 
+  </head> 
+<style type="text/css"> 
+    .pause {background-position: 0 bottom;} 
+    .mscBtn {height: 50px; 
+    background: #fff url("../素材/images/波纹小12.gif") no-repeat; 
+    display: block;} 
+</style> 
+<script type="text/javascript"> 
+$(function(){ 
+    var music = document.getElementById("bgMusic"); 
+    $("#audioBtn").click(function(){ 
+    if(music.paused){music.play(); 
+    $("#audioBtn").removeClass("pause").addClass("play"); 
+    }else{music.pause(); 
+    $("#audioBtn").removeClass("play").addClass("pause");}}); 
+    }); 
+</script> 
+<body> 
+    <a class="mscBtn" id="audioBtn" style="cursor:pointer;"></a> 
+    <audio id="bgMusic" src="../Music/张震岳 _ MC HotDog - 思念是一种病 (Live).mp3" autoplay="autoplay"></audio> 
+</body> 
+</html>

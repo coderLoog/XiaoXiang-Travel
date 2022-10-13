@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>永州周边</title>
+	<style>
+	 *{
+            margin: 0;
+            padding: 0;
+        }
+		body video {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+	}
+		
+	.top{
+		width: 100%;
+		height: 32px;
+		background-color: #FFFFFF;
+	}
+	.nav{
+		width: 1000px;
+		height: 32px;
+		margin-right: auto;
+		border-bottom-width: 4px;
+		margin-left: auto;
+
+	}
+	.nav ul li{
+		float: left;
+		list-style-type: none;
+		width: 107px;
+		height: 32px;
+		text-align: center;
+		line-height: 34px;
+		font-size: 14px;
+		background-position: 0% 50%;
+		padding-left: 9px;
+	}
+	.nav ul li:hover {
+	   background-color:#EBC0C1;
+	}
+	.nav ul .li1{
+		list-style-type: none;
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_03.jpg");
+		background-repeat: no-repeat;
+		width: 104px;
+	}
+	.nav ul .li2{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_05.jpg");
+		background-repeat: no-repeat;
+		width: 110px;
+	}
+	.nav ul .li3{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_07.jpg");
+		background-repeat: no-repeat;
+
+		width: 96px;
+	}
+	.nav ul .li4{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_09.jpg");
+		background-repeat: no-repeat;
+
+		width: 109px;
+	}
+	.nav ul .li5{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_15.jpg");
+		background-repeat: no-repeat;
+
+		width: 111px;
+	}
+	.nav ul .li6{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_13.jpg");
+		background-repeat: no-repeat;
+
+		width: 111px;
+	}
+	.nav ul .li7{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_11.jpg");
+		background-repeat: no-repeat;
+
+		width: 95px;
+	}
+	.nav ul .li8{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_17.jpg");
+		background-repeat: no-repeat;
+		line-height: 32px;
+		width: 90px;
+	}
+	.nav ul .li9{
+		background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_19.jpg");
+		background-repeat: no-repeat;
+
+		width: 88px;
+	}
+
+	.nav ul li a {
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		color: #000000;
+		text-decoration: none;
+	}
+	.top .nav ul li a:hover {
+
+	}
+	.logo {
+		width: 1000px;
+		height: 84px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bigest{
+    float: right;
+    margin-top: 21px;
+	}
+	fieldset.search { 
+		padding: 0px; 
+		border: none; 
+		width: 232px; 
+		background:#e0e0e0; 
+	} 
+	fieldset.seacher:hover { 
+		background: #a8a8a8; 
+	} 
+	.search input, .search button { 
+		border: none; 
+		float: left; 
+	}
+	.search input.square { 
+		height: 28px; 
+		width: 200px; 
+		margin-right: 0px; 
+		padding-right: 0px; 
+		background: #e0e0e0; 
+		margin: 1px; 
+	} 
+	.search input.square:focus { 
+		background: #e8e8e8 ; 
+		outline: none; 
+	}
+	.search button.btn { 
+		border: none; 
+		width: 28px; 
+		height: 28px; 
+		margin: 0px auto; 
+		margin: 1px; 
+		background: url("../img/images/下载.png") no-repeat;
+	} 
+	.picture{
+		width: 200px;
+		height: 84px;
+	}
+	.picture img{
+		width: 180px;
+		height: 84px;
+	}.center-top{
+		width: 1000px;
+		height: 57px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	li{
+		list-style-type: none;	
+	}
+	a{
+		text-decoration: none;	
+	}
+	.nav-nav{
+		width: 1000px;
+		height: 57px;
+		border-top: 1px solid #FCD3AB;
+	}
+	 .nav-nav>li {
+		float: left;
+		width: 118.5px;
+		height: 57px;
+		text-align: center;
+		line-height: 57px;
+		position: relative;
+		 z-index: 2;
+			}
+	.nav-nav>li>a:hover {
+		border-top: 2px solid #9C0002;
+	}
+
+        
+    .nav-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+        }
+        
+        .nav-nav>li>a:hover {
+            background-color: #eee;
+        }
+        
+        .nav-nav ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-left: 1px solid #FECC5B;
+    border-right: 1px solid #FECC5B;
+        }
+        
+        .nav-nav ul li {
+    border-bottom: 1px solid #FECC5B;
+    background-color: rgba(229,221,210,0.87);
+    font-size: 13px;
+        }
+        
+        .nav-nav ul li a:hover {
+    background-color: #FFF5DA;
+    border-top: 2px solid #FF0004;
+        }
+		.title{
+    width: 1000px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: -37px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 385px;
+    padding-left: 82px;
+		}
+		.title span:nth-child(1){
+			font-size: 40px;
+			padding-right: 10px;
+		}
+		.title span:nth-child(2){
+			font-size: 28px;
+		}
+		.title1{
+			width: 1000px;
+			height: 1500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.title1 p{
+			font-size: 20px;
+		}
+		.img1{
+			width: 1000px;
+			margin-top: 150px;
+		}
+    </style>
+	<script src="../CSS/jquery.min.js"></script>
+	<!--内容导航的script-->
+	<script>
+		$(function(){
+			$(".nav-nav>li").hover(function(){
+				$(this).children("ul").slideToggle();
+			});
+		})
+	</script>
+</head>
+
+<body>
+    <div class="top">
+		<div class="nav">
+			<ul>
+				<li class="li1"><a href="#">English</a></li>
+				<li class="li2"><a href="#">Français</a></li>
+				<li class="li3"><a href="#">日本語</a></li>
+				<li class="li4"><a href="#">Español</a></li>
+				<li class="li5"><a href="#">Deutsch</a></li>
+				<li class="li6"><a href="#">Русский</a></li>
+				<li class="li7"><a href="#">한국어</a></li>
+				<li class="li8"><a href="#">عربي</a></li>
+				<li class="li9"><a href="#">繁體</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="logo">
+		<div class="bigest">
+  			<form method="get" id="searchform" action="http://www.baidu.com/"> 
+    			<fieldset class="search"> 
+        			 <input type="text" class="square" name="s1" id="s2"  placeholder="这份攻略一定会使您满意"/> 
+          			<button class="btn" title="SEARCH"> </button> 
+    			</fieldset> 
+			</form>
+		</div>
+		<div class="picture">
+			<img src="../img/images/永州logo.png"/>
+		</div>
+	</div>
+	
+	<div class="center-top">
+		<!--下面是内容导航-->
+			<ul class="nav-nav">
+				<li>
+					<a href="首页.html">首页</a>
+					
+				</li>
+				<li>
+					<a href="#">永州美景</a>
+					<ul>
+						<li>
+							<a href="永州美景.html">朝阳旭日</a>
+						</li>
+						<li>
+							<a href="回龙夕照.html">回龙夕照</a>
+						</li>
+						<li>
+							<a href="绿天蕉影.html">绿天蕉影</a>
+						</li>
+						<li>
+							<a href="山寺晚钟.html">山寺晚钟</a>
+						</li>
+						<li>
+							<a href="香零烟雨.html">春季烟雨</a>
+						</li>
+						<li>
+							<a href="恩院风荷.html">恩院风荷</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="永州文化.html">文化永州</a>
+<!--
+					<ul>
+						<li>
+							<a href="永州文化.html">零陵花鼓戏</a>
+						</li>
+						<li>
+							<a href="永州文化.html">祁剧</a>
+						</li>
+						<li>
+							<a href="永州文化.html">舜帝祭典</a>
+						</li>
+						<li>
+							<a href="永州文化.html">女书习俗</a>
+						</li>
+						<li>
+							<a href="永州文化.html">盘王大歌</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州工业排版.html">永州工业</a>
+<!--
+					<ul>
+						<li>
+							<a href="永州工业排版.html">零陵卷烟厂</a>
+						</li>
+						<li>
+							<a href="永州工业排版.html">道州工业园</a>
+						</li>
+						<li>
+							<a href="永州工业排版.html">祁阳科技工业园</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州美食.html">永州美食</a>
+<!--
+					<ul>
+						
+						<li>
+							<a href="永州美食.html">东安鸡</a>
+						</li>
+						<li>
+							<a href="永州美食.html">酱板鸭</a>
+						</li>
+						<li>
+							<a href="永州美食.html">煎连壳蟹</a>
+						</li>
+						<li>
+							<a href="永州美食.html">血鸭</a>
+						</li>
+						<li>
+							<a href="永州美食.html">永州喝螺</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州周边.html">永州周边</a>
+					
+				</li>
+				<li>
+					<a href="视觉永州.html">视觉永州</a>
+					<ul>
+						<li>
+							<a href="视觉永州.html">图片</a>
+						</li>
+						<li>
+							<a href="视觉永州.html">视频</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="旅游手册.html">旅游手册</a>
+					<ul>
+						<li>
+							<a href="旅游手册.html">天气</a>
+						</li>
+						<li>
+							<a href="旅游手册.html">住宿</a>
+						</li>
+						<li>
+							<a href="旅游手册.html">季节安排</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+	<div class="title"><span>湖南科技学院|</span><span>愿你乘风破浪，归来仍是少年</span></div>
+	
+	<video src="../vudio/愿你乘风破浪，归来仍是少年.mp4" controls="controls" preload="auto"></video>
+	
+	<div class="title1"><h2>接下来为您展示学校的基础资料</h2>
+		<hr>
+		<p>湖南科技学院（Hunan University of Science and Engineering），坐落于素有“锦绣潇湘”之称的著名历史文化名城“竹城”——永州，是湖南永州市的最高学府，是湖南省“十三五”硕士学位授予单位立项建设单位（第三批）。
+
+该校创建于1941年，前身为湖南省立第七师范学校，1971年创办专科教育，2002年由原零陵师范高等专科学校升格为本科院校——零陵学院，2004年更名为湖南科技学院。<br>
+历史沿革<br>
+1941年，湖南省立第七师范学校建立；<br>
+1954年春，校址从道县搬至永州市零陵区杨梓塘社区；<br>
+1970年12月，零陵地区革命委员会委派工作组进驻原零陵师范学校，负责零陵地区师训班的筹备工作。<br>
+1971年5月，创办零陵地区师资培训班；<br>
+1976年11月，中共湖南省委批准建立湖南师范学院零陵分院；<br>
+1977年下学期，零陵分院招收了恢复高考制度后的首届新生110名，学制3年。<br>
+1979年5月，经零陵地委批准，零陵分院与零陵师范学校正式分家，零陵师范学校新建校址，原校址交给了零陵分院；<br>
+1981年7月11日，国务院正式批准成立零陵师范专科学校。张祖采任党委书记，刘坚一任党委副书记兼校长，赵国璋为副书记，李邦清、周祖盛、陈雁谷为副校长。该校占地面积为 75亩，建筑总面积为14337平方米，其中教学用房总面积为4700平方米；<br>
+1981年学校开设了中文、数学、物理、化学、英语5个专业，专任教师为110人，其中讲师为25人，招生357人。<br>
+1982年增开了历史专业，学制均为三年。1983年下期，增设了干部专修科，学制两年，招生420人。<br>
+1984年专任教师为158人，其中有讲师42人。该校占地面积为200亩，建筑总面积为32796平方米，其中教学用房总面积围8367平方米；<br>
+1985年2月，陈宏能任党委书记，罗尔康任党委副书记兼校长，杜方智任党委副书记，唐朝阔、黄裕民、胡显词任副校长，专任教师为146人，其中讲师43人；<br>
+1987年1月，湖南省委批准零陵师专由正处级建制升格为副厅级建制，胡显词改任纪委书记；<br>
+1989年8月升格后的领导班子组成，周嗣海任党委书记，罗尔康任党委副书记兼校长，杜方智、徐达福任党委副书记，唐朝阔、黄裕民、周云峰任副校长，胡显词任纪委书记；<br>
+1990年专任教师 为170人，其中副教授为34人，讲师为63人；<br>
+1991年12月唐朝阔任党委副书记，1992年1月任校长；<br>
+1993年7月，学校更名为零陵师范高等专科学校；<br>
+1998年4月管天球、佘国华任副校长，陈雄一任纪委书记，蒋璟萍任工会主席；<br>
+1999年5月，蒋璟萍任党委副书记。专任教师为208人，其中正高3人，副高47人，讲师90人；<br>
+2000年，专任教师为292人，其中正高12人，副高114人；<br>
+2002年5月，零陵师专升格为全日制普通本科院校零陵学院。<br>
+2002年10月零陵学院第一届班子成立。陈建民为学院党委书记，管天球为党委副书记、院长，谷明光为党委副书记兼纪委书记，唐艳明、欧小松、邓楠为副院长；<br>
+2004年7月，教育部同意零陵学院更名为湖南科技学院。<br>
+2013年5月，被教育部评为全国毕业生就业典型经验高校。<br>
+2017年11月，学校新增为湖南省硕士学位授予单位立项建设单位（第三批）。<br>
+2019年11月，湖南科技学院高水平通过了中华人民共和国教育部本科教学工作审核评估。<br>
+2020年10月30日，湖南科技学院确定生物与医药、电子信息、旅游管理三个硕士专业学位作为新增学位授权点进行申报2020年湖南省新增硕士学位授予单位。<br>
+学术研究<br>
+科研成果<br>
+截至2019年10月，湖南科技学院全校教师共获得省部级以上科研项目370余项，其中国家自科基金项目14项、国家社科基金和教育部项目23项、国家艺术基金3项，获省级以上科研与教学成果奖20余项，全校教师发表学术论文5000余篇，其中被三大检索收录300余篇，全球高被引ESI论文2篇，出版著作过百部。<br>
+
+湖南科技学院专任教师近5年获得国家基金项目24项，部级科研项目18项；获得省级项目284项，厅级重大重点项目128项。在SCI、SSCI、EI等学术刊物上发表论文367篇，CSSCI论文近200篇，其中15篇论文进入全球高被引论文。2019年度CSSCI源刊论文40篇，在全国高校排名为第289位。出版著作、教材260部，授权专利151项（其中发明专利62项），获省级以上科研奖励10项 。<br>
+
+社科类<br>
+
+2018年度，湖南科技学院全校教师共在核心期刊发表科研论文48篇，省级期刊发表论文447篇；出版著作25部，古籍整理1部，辑录整理1部，总校1部，合著1部；科研作品在核心刊物发表11处，省级刊物48处；科技成果获市厅级奖励9项。<br>
+
+自科类<br>
+
+2018年度，湖南科技学院全校教师共在SCI上发表科研论文60篇，EI4篇，CSCD32篇，北大核心4篇；出刊著作5部，专著6部；申请专利35项，其中发明专利8项  。<br>
+</p>
+		<img class="img1" src="../img/永州周边/学校1.png" alt="">
+	</div>
+</body>
+</html>

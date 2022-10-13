@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+	function browserRedirect() {
+           var sUserAgent = navigator.userAgent.toLowerCase();
+           if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+               //跳转移动端页面
+               window.location.href="https://longsirdsaw.github.io/TEXT.github.io/";
+           } else {
+               //跳转pc端页面
+               window.location.href="https://longsirdsaw.github.io/";
+           }
+       }
+	browserRedirect(); 
+</script>
+</body>
+</html>

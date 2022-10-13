@@ -1,0 +1,118 @@
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	/*弹性布局*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: linear-gradient(200deg,#78f,#f78);
+	
+	
+}
+#box{
+	display: flex;
+	padding: 20px;
+	justify-content:space-around;
+	align-items: center;
+	height: 600px;
+	position: absolute;
+	width: 860px;
+	flex-wrap: wrap;
+	background-image: linear-gradient(200deg,#78f,#f78);
+	
+}
+a{
+	border:none;
+    cursor:pointer;
+}
+a:hover{
+	border:none;
+    cursor:pointer;
+}
+a img{
+	border:none;
+    text-decoration:none;
+    outline:none;   
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -khtml-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+a:hover img{
+	 -webkit-opacity:0.6;
+	-khtml-opacity:0.6;
+	-moz-opacity:0.6;
+	-o-opacity:0.6;
+	opacity:0.6;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+#Game-1{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-2{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-3{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-4{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-5{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-6{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-7{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}
+#Game-8{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 38px;
+	cursor: pointer;
+	text-align: center;
+}

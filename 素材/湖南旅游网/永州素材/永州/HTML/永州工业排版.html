@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>永州工业</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .content{
+            width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(229,221,210,0.4);
+            padding: 30px;
+        }
+		
+        .biaoti{
+            width: 240px;
+            height: 48px;
+            line-height: 48px;
+            margin: 40px auto;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        img{
+            padding-top: 20px;
+            width: 60%;
+        }
+        .tuwen>img ,.tuwen>p{
+            float: left;
+        }
+        .tuwen>p{
+            width: 30%;
+            padding: 20px 5%;
+            height: 365px;
+        }
+        .p3{
+            width: 1000px;
+        }
+		.top{
+    width: 100%;
+    height: 32px;
+    background-color: #FFFFFF;
+}
+.nav{
+    width: 1000px;
+    height: 32px;
+    margin-right: auto;
+    border-bottom-width: 4px;
+    margin-left: auto;
+
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 107px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background-position: 0% 50%;
+    padding-left: 9px;
+}
+.nav ul li:hover {
+   background-color:#EBC0C1;
+}
+.nav ul .li1{
+    list-style-type: none;
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_03.jpg");
+    background-repeat: no-repeat;
+    width: 104px;
+}
+.nav ul .li2{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_05.jpg");
+    background-repeat: no-repeat;
+    width: 110px;
+}
+.nav ul .li3{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_07.jpg");
+    background-repeat: no-repeat;
+    
+    width: 96px;
+}
+.nav ul .li4{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_09.jpg");
+    background-repeat: no-repeat;
+    
+    width: 109px;
+}
+.nav ul .li5{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_15.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li6{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_13.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li7{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_11.jpg");
+    background-repeat: no-repeat;
+   
+    width: 95px;
+}
+.nav ul .li8{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_17.jpg");
+    background-repeat: no-repeat;
+    line-height: 32px;
+    width: 90px;
+}
+.nav ul .li9{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_19.jpg");
+    background-repeat: no-repeat;
+    
+    width: 88px;
+}
+
+.nav ul li a {
+	display: block;
+    text-align: center;
+	width: 100%;
+	height: 100%;
+    color: #000000;
+    text-decoration: none;
+}
+.top .nav ul li a:hover {
+    
+}
+		.logo {
+    width: 1000px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigest{
+    float: right;
+    margin-top: 28px;
+}
+fieldset.search { 
+    padding: 0px; 
+    border: none; 
+    width: 232px; 
+    background:#e0e0e0; 
+} 
+fieldset.seacher:hover { 
+    background: #a8a8a8; 
+} 
+.search input, .search button { 
+    border: none; 
+    float: left; 
+}
+.search input.square { 
+    height: 28px; 
+    width: 200px; 
+    margin-right: 0px; 
+    padding-right: 0px; 
+    background: #e0e0e0; 
+    margin: 1px; 
+} 
+.search input.square:focus { 
+    background: #e8e8e8 ; 
+    outline: none; 
+}
+.search button.btn { 
+    border: none; 
+    width: 28px; 
+    height: 28px; 
+    margin: 0px auto; 
+    margin: 1px; 
+    background: url("../img/images/下载.png") no-repeat;
+} 
+.picture{
+	width: 200px;
+	height: 84px;
+}
+.picture img{
+    width: 180px;
+    height: 64px;
+}
+		.center-top{
+    width: 1000px;
+    height: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+li{
+    list-style-type: none;	
+}
+a{
+    text-decoration: none;	
+}
+.nav-nav{
+    width: 1000px;
+    height: 57px;
+    border-top: 1px solid #FCD3AB;
+}
+ .nav-nav>li {
+    float: left;
+    width: 118.5px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    position: relative;
+	 z-index: 2;
+        }
+.nav-nav>li>a:hover {
+    border-top: 2px solid #9C0002;
+}
+
+        
+    .nav-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+        }
+        
+        .nav-nav>li>a:hover {
+            background-color: #eee;
+        }
+        
+        .nav-nav ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-left: 1px solid #FECC5B;
+    border-right: 1px solid #FECC5B;
+        }
+        
+        .nav-nav ul li {
+    border-bottom: 1px solid #FECC5B;
+    background-color: rgba(229,221,210,0.87);
+    font-size: 13px;
+        }
+        
+        .nav-nav ul li a:hover {
+    background-color: #FFF5DA;
+    border-top: 2px solid #FF0004;
+        }
+    </style>
+	<script src="../CSS/jquery.min.js"></script>
+	<!--内容导航的script-->
+	<script>
+		$(function(){
+			$(".nav-nav>li").hover(function(){
+				$(this).children("ul").slideToggle();
+			});
+		})
+	</script>
+</head>
+<body>
+	<div class="top">
+		<div class="nav">
+			<ul>
+				<li class="li1"><a href="#">English</a></li>
+				<li class="li2"><a href="#">Français</a></li>
+				<li class="li3"><a href="#">日本語</a></li>
+				<li class="li4"><a href="#">Español</a></li>
+				<li class="li5"><a href="#">Deutsch</a></li>
+				<li class="li6"><a href="#">Русский</a></li>
+				<li class="li7"><a href="#">한국어</a></li>
+				<li class="li8"><a href="#">عربي</a></li>
+				<li class="li9"><a href="#">繁體</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="logo">
+		<div class="bigest">
+  			<form method="get" id="searchform" action="http://www.baidu.com/"> 
+    			<fieldset class="search"> 
+        			 <input type="text" class="square" name="s1" id="s2"  placeholder="这份攻略一定会使您满意"/> 
+          			<button class="btn" title="SEARCH"> </button> 
+    			</fieldset> 
+			</form>
+		</div>
+		<div class="picture">
+			<img src="../img/images/永州logo.png"/>
+		</div>
+	</div>
+	
+	<div class="center-top">
+		<!--下面是内容导航-->
+			<ul class="nav-nav">
+				<li>
+					<a href="首页.html">首页</a>
+					
+				</li>
+				<li>
+					<a href="#">永州美景</a>
+					<ul>
+						<li>
+							<a href="永州美景.html">朝阳旭日</a>
+						</li>
+						<li>
+							<a href="回龙夕照.html">回龙夕照</a>
+						</li>
+						<li>
+							<a href="绿天蕉影.html">绿天蕉影</a>
+						</li>
+						<li>
+							<a href="山寺晚钟.html">山寺晚钟</a>
+						</li>
+						<li>
+							<a href="香零烟雨.html">春季烟雨</a>
+						</li>
+						<li>
+							<a href="恩院风荷.html">恩院风荷</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="永州文化.html">文化永州</a>
+<!--
+					<ul>
+						<li>
+							<a href="永州文化.html">零陵花鼓戏</a>
+						</li>
+						<li>
+							<a href="永州文化.html">祁剧</a>
+						</li>
+						<li>
+							<a href="永州文化.html">舜帝祭典</a>
+						</li>
+						<li>
+							<a href="永州文化.html">女书习俗</a>
+						</li>
+						<li>
+							<a href="永州文化.html">盘王大歌</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州工业排版.html">永州工业</a>
+<!--
+					<ul>
+						<li>
+							<a href="永州工业排版.html">零陵卷烟厂</a>
+						</li>
+						<li>
+							<a href="永州工业排版.html">道州工业园</a>
+						</li>
+						<li>
+							<a href="永州工业排版.html">祁阳科技工业园</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州美食.html">永州美食</a>
+<!--
+					<ul>
+						
+						<li>
+							<a href="永州美食.html">东安鸡</a>
+						</li>
+						<li>
+							<a href="永州美食.html">酱板鸭</a>
+						</li>
+						<li>
+							<a href="永州美食.html">煎连壳蟹</a>
+						</li>
+						<li>
+							<a href="永州美食.html">血鸭</a>
+						</li>
+						<li>
+							<a href="永州美食.html">永州喝螺</a>
+						</li>
+					</ul>
+-->
+				</li>
+				<li>
+					<a href="永州周边.html">永州周边</a>
+					
+				</li>
+				<li>
+					<a href="视觉永州.html">视觉永州</a>
+					<ul>
+						<li>
+							<a href="视觉永州.html">图片</a>
+						</li>
+						<li>
+							<a href="视觉永州.html">视频</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="旅游手册.html">旅游手册</a>
+					<ul>
+						<li>
+							<a href="旅游手册.html">天气</a>
+						</li>
+						<li>
+							<a href="旅游手册.html">住宿</a>
+						</li>
+						<li>
+							<a href="旅游手册.html">季节安排</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+    <div class="content">
+		
+        <div class="biaoti">零陵工业园</div>
+        <p>湖南零陵工业园成立于1997年，2006年经国家发改委核准、省人民政府批准为省级工业园区。园区位于湖南西南部，毗邻两广，交通便捷。规划面积33.08平方公里，辖萍洲工业区、河西工业区、珠山工业区三个产业布局不同的特色工业区，已建成面积5平方公里。园区内水、电、路、讯等基础设施完善，学校、医院、银行、公共交通、人才交流平台配套齐全。</p>
+        <div class="tuwen">
+            <img src="../img/永州工业排版/永州工业排版1.jpg" alt="图片未加载">
+             <p>主要园区<br>
+                 萍洲工业区<br>
+                 萍洲工业区位于湖南零陵工业园的核心区，规划面积8.22平方公里。主要依托本地的中药材及农产品资源，发展低能耗、无污染、高效益的生物制药和农副产品加工环保型产业。
+             </p>
+        </div>
+        <p class="p3">河西工业区<br>
+            河西工业区位于洛湛铁路永州火车南站处，规划面积20.32平方公里，主要依托交通和本区劳动力资源优势，承接沿海产业转移项目，以发展电子信息、
+            精细化工、机械制造、建筑建材和劳动密集型的产业为主。规划修建的萍洲大桥将其与萍洲工业区连为一体。
+            <br>
+            珠山工业区<br>
+            珠山工业区位于衡昆高速公路珠山互通站旁，规划面积4.54平方公里，主要依托辖区内丰富的锰资源和90多家锰初级加工厂加工的资源，发展以锰矿石深加工和生产高附加值的锰产品为主的锰产业。
+        </p>
+    </div>
+</body>
+</html>

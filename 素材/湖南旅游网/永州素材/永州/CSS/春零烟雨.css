@@ -1,0 +1,247 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.box
+{
+    width: 900px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    width: 100%;
+    height: 32px;
+    background-color: #FFFFFF;
+}
+.nav{
+    width: 1000px;
+    height: 32px;
+    margin-right: auto;
+    border-bottom-width: 4px;
+    margin-left: auto;
+
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 107px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background-position: 0% 50%;
+    padding-left: 9px;
+}
+.nav ul li:hover {
+   background-color:#EBC0C1;
+}
+.nav ul .li1{
+    list-style-type: none;
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_03.jpg");
+    background-repeat: no-repeat;
+    width: 104px;
+}
+.nav ul .li2{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_05.jpg");
+    background-repeat: no-repeat;
+    width: 110px;
+}
+.nav ul .li3{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_07.jpg");
+    background-repeat: no-repeat;
+    
+    width: 96px;
+}
+.nav ul .li4{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_09.jpg");
+    background-repeat: no-repeat;
+    
+    width: 109px;
+}
+.nav ul .li5{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_15.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li6{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_13.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li7{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_11.jpg");
+    background-repeat: no-repeat;
+   
+    width: 95px;
+}
+.nav ul .li8{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_17.jpg");
+    background-repeat: no-repeat;
+    line-height: 32px;
+    width: 90px;
+}
+.nav ul .li9{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_19.jpg");
+    background-repeat: no-repeat;
+    
+    width: 88px;
+}
+
+.nav ul li a {
+	display: block;
+    text-align: center;
+	width: 100%;
+	height: 100%;
+    color: #000000;
+    text-decoration: none;
+}
+.top .nav ul li a:hover {
+    
+}
+		.logo {
+    width: 1000px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigest{
+    float: right;
+    margin-top: 28px;
+}
+fieldset.search { 
+    padding: 0px; 
+    border: none; 
+    width: 232px; 
+    background:#e0e0e0; 
+} 
+fieldset.seacher:hover { 
+    background: #a8a8a8; 
+} 
+.search input, .search button { 
+    border: none; 
+    float: left; 
+}
+.search input.square { 
+    height: 28px; 
+    width: 200px; 
+    margin-right: 0px; 
+    padding-right: 0px; 
+    background: #e0e0e0; 
+    margin: 1px; 
+} 
+.search input.square:focus { 
+    background: #e8e8e8 ; 
+    outline: none; 
+}
+.search button.btn { 
+    border: none; 
+    width: 28px; 
+    height: 28px; 
+    margin: 0px auto; 
+    margin: 1px; 
+    background: url("../img/images/下载.png") no-repeat;
+} 
+.picture{
+    width: 200px;
+    height: 84px;
+    background-image: url(../img/images/logo.png);
+    background-repeat: no-repeat;
+}
+.picture img{
+    width: 180px;
+    height: 84px;
+}
+		.center-top{
+    width: 1000px;
+    height: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+li{
+    list-style-type: none;	
+}
+a{
+    text-decoration: none;	
+}
+.nav-nav{
+    width: 1000px;
+    height: 57px;
+    border-top: 1px solid #FCD3AB;
+}
+ .nav-nav>li {
+    float: left;
+    width: 118.5px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    position: relative;
+	 z-index: 2;
+        }
+.nav-nav>li>a:hover {
+    border-top: 2px solid #9C0002;
+}
+
+        
+    .nav-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+        }
+        
+        .nav-nav>li>a:hover {
+            background-color: #eee;
+        }
+        
+        .nav-nav ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-left: 1px solid #FECC5B;
+    border-right: 1px solid #FECC5B;
+        }
+        
+        .nav-nav ul li {
+    border-bottom: 1px solid #FECC5B;
+    background-color: rgba(229,221,210,0.87);
+    font-size: 13px;
+        }
+        
+        .nav-nav ul li a:hover {
+    background-color: #FFF5DA;
+    border-top: 2px solid #FF0004;
+        }
+.box .xiang{
+    width: 600px;
+    height: 2200px;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+img   {
+    width: 600px;
+    height: 400px;
+}
+.box .xiang h1 {
+    text-align: center;
+    font-family: 华文新魏;
+    font-size: 50px;
+    margin-top: 30px;
+}
+body p {
+    text-indent: 2em;
+    font-family: 宋体;
+    font-size: 20px;
+    line-height: 25px;
+}
+h3{
+    font-family: 华文新魏;
+    font-size: 26px;
+    line-height: 50px;
+}

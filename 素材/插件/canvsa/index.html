@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>HTML5 Canvas全屏画板涂鸦代码</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<canvas id="xxx" width=300 height=300></canvas>
+
+<div id=actions class="actions">
+	<svg id=pen class="active icon">
+		<use xlink:href="#icon-pen"></use>
+	</svg>
+	<svg id=eraser class="icon">
+		<use xlink:href="#icon-erase"></use>
+	</svg>
+	<svg id=clear class="icon">
+		<use xlink:href="#icon-clear"></use>
+	</svg>
+	<svg id=download class="icon">
+		<use xlink:href="#icon-save"></use>
+	</svg>
+</div>
+
+<ol class="colors">
+	<li id="red" class="red active"></li>
+	<li id="green" class="green"></li>
+	<li id="blue" class="blue"></li>
+</ol>
+<ol class="sizes">
+	<li id="thin" class="thin"></li>
+	<li id="thick" class="thick"></li>
+</ol>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/other.js"></script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+<p>来源：<a href="http://www.lanrenzhijia.com/" target="_blank">懒人</a></p>
+</div>
+</body>
+</html>

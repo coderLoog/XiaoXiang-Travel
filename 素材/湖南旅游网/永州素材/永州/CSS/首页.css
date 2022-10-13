@@ -1,0 +1,569 @@
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    /*    background-image: linear-gradient(100deg,#78f,#f78);*/
+    background: url("../img/images/背景.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top{
+    width: 100%;
+    height: 32px;
+    background-color: #FFFFFF;
+}
+.nav{
+    width: 1000px;
+    height: 32px;
+    margin-right: auto;
+    border-bottom-width: 4px;
+    margin-left: auto;
+
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 107px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background-position: 0% 50%;
+    padding-left: 9px;
+}
+.nav ul li:hover {
+   background-color:#EBC0C1;
+}
+.nav ul .li1{
+    list-style-type: none;
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_03.jpg");
+    background-repeat: no-repeat;
+    width: 104px;
+}
+.nav ul .li2{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_05.jpg");
+    background-repeat: no-repeat;
+    width: 110px;
+}
+.nav ul .li3{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_07.jpg");
+    background-repeat: no-repeat;
+    
+    width: 96px;
+}
+.nav ul .li4{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_09.jpg");
+    background-repeat: no-repeat;
+    
+    width: 109px;
+}
+.nav ul .li5{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_15.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li6{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_13.jpg");
+    background-repeat: no-repeat;
+    
+    width: 111px;
+}
+.nav ul .li7{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_11.jpg");
+    background-repeat: no-repeat;
+   
+    width: 95px;
+}
+.nav ul .li8{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_17.jpg");
+    background-repeat: no-repeat;
+    line-height: 32px;
+    width: 90px;
+}
+.nav ul .li9{
+    background-image: url("../img/images/北京旅游网-北京市文化和旅游局监管的非营利性网站_19.jpg");
+    background-repeat: no-repeat;
+    
+    width: 88px;
+}
+
+.nav ul li a {
+	display: block;
+    text-align: center;
+	width: 100%;
+	height: 100%;
+    color: #000000;
+    text-decoration: none;
+}
+.top .nav ul li a:hover {
+    
+}
+.logo {
+    width: 1000px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigest{
+    float: right;
+    margin-top: 28px;
+}
+fieldset.search { 
+    padding: 0px; 
+    border: none; 
+    width: 232px; 
+    background:#e0e0e0; 
+} 
+fieldset.seacher:hover { 
+    background: #a8a8a8; 
+} 
+.search input, .search button { 
+    border: none; 
+    float: left; 
+}
+.search input.square { 
+    height: 28px; 
+    width: 200px; 
+    margin-right: 0px; 
+    padding-right: 0px; 
+    background: #e0e0e0; 
+    margin: 1px; 
+} 
+.search input.square:focus { 
+    background: #e8e8e8 ; 
+    outline: none; 
+}
+.search button.btn { 
+    border: none; 
+    width: 28px; 
+    height: 28px; 
+    margin: 0px auto; 
+    margin: 1px; 
+    background: url("../img/images/下载.png") no-repeat;
+} 
+.picture{
+	width: 200px;
+	height: 84px;
+}
+.picture img{
+	width: 180px;
+	height: 84px;
+}
+.content {
+    width: 1000px;
+    height: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(229,221,210,1.0);
+}
+
+.center-top{
+    width: 1000px;
+    height: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+li{
+    list-style-type: none;	
+}
+a{
+    text-decoration: none;	
+}
+.nav-nav{
+    width: 1000px;
+    height: 57px;
+    border-top: 1px solid #FCD3AB;
+}
+ .nav-nav>li {
+    float: left;
+    width: 118.5px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    position: relative;
+	 z-index: 2;
+        }
+.nav-nav>li>a:hover {
+    border-top: 2px solid #9C0002;
+}
+
+        
+    .nav-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+        }
+        
+        .nav-nav>li>a:hover {
+            background-color: #eee;
+        }
+        
+        .nav-nav ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-left: 1px solid #FECC5B;
+    border-right: 1px solid #FECC5B;
+        }
+        
+        .nav-nav ul li {
+    border-bottom: 1px solid #FECC5B;
+    background-color: rgba(229,221,210,0.87);
+    font-size: 13px;
+        }
+        
+        .nav-nav ul li a:hover {
+    background-color: #FFF5DA;
+    border-top: 2px solid #FF0004;
+        }
+#divs2{
+    width: 900px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+.activity {
+    width: 40px;
+    height: 222px;
+    position: fixed;
+    right: 0px;
+    top: 300px;
+	cursor: pointer;
+}
+.content .service {
+	 width: 40px;
+    height: 222px;
+    position: fixed;
+	right: 0px;
+    top: 550px;
+	cursor: pointer;
+}
+.content .back-top  {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0px;
+    top: 775px;
+	cursor: pointer;
+}
+.content .expert {
+    width: 900px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.re-box
+{
+    height: 300px;
+    width: 1000px;
+    margin-top: 40px;
+} 
+.re-item
+{
+    height: 200px;
+    width: 280px;
+    cursor: pointer;
+    position: relative;
+    perspective: 500;
+    -webkit-perspective: 500;
+    left: 50px;
+}
+.re-item-front{
+	background: url("../img/images/春.png");
+}
+.re-item-back img {
+               height: 200px;
+				width: 280px;
+            }
+ .re-item-front,.re-item-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                -webkit-perspective: 1000;
+				backface-visibility: hidden;
+                -webkit-transition: all 1.5s;
+                -moz-transition: all 1.5s;
+                -ms-transition: all 1.5s;
+                -o-transition: all 1.5s;
+                box-shadow: rgba(50, 50, 50, 0.2) 0 0 15px;
+                overflow: hidden;
+            }
+			.re-item-back {
+                position: relative;
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re-item:hover .re-item-front {
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re-item:hover .re-item-back {
+                transform: rotateY(-360deg);
+                -webkit-transform: rotateY(-360deg);
+            }
+
+            .re-box .re-item dd {
+                text-align: center;
+                font-family: "微软雅黑";
+            }
+
+            .re-item .re-item-job {
+                margin: 2px 0;
+                font-size: 18px;
+                color: #303030;
+                line-height: 40px;
+            }
+
+            .re-item .re-item-des {
+                padding: 0 12px;
+                font-size: 14px;
+                color: #939393;
+            }
+.re1-item
+{
+    height: 200px;
+    width: 280px;
+    cursor: pointer;
+    position: relative;
+    perspective: 500;
+    -webkit-perspective: 500;
+    left: 670px;
+    top: -200px;
+}
+.re1-item-front{
+	background: url("../img/images/夏.png");
+}
+.re1-item-back img {
+               height: 200px;
+				width: 280px;
+            }
+ .re1-item-front,.re1-item-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                -webkit-perspective: 1000;
+				backface-visibility: hidden;
+                -webkit-transition: all 1.5s;
+                -moz-transition: all 1.5s;
+                -ms-transition: all 1.5s;
+                -o-transition: all 1.5s;
+                box-shadow: rgba(50, 50, 50, 0.2) 0 0 15px;
+                overflow: hidden;
+            }
+			.re1-item-back {
+                position: relative;
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re1-item:hover .re1-item-front {
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re1-item:hover .re1-item-back {
+                transform: rotateY(-360deg);
+                -webkit-transform: rotateY(-360deg);
+            }
+
+            .re-box .re1-item dd {
+                text-align: center;
+                font-family: "微软雅黑";
+            }
+
+            .re1-item .re1-item-job {
+                margin: 2px 0;
+                font-size: 18px;
+                color: #303030;
+                line-height: 40px;
+            }
+
+            .re1-item .re1-item-des {
+                padding: 0 12px;
+                font-size: 14px;
+                color: #939393;
+            }
+.re2-item
+{
+    height: 200px;
+    width: 280px;
+    cursor: pointer;
+    position: relative;
+    perspective: 500;
+    -webkit-perspective: 500;
+    left: 359px;
+    top: -300px;
+}
+.re2-item-front{
+	background: url("../img/images/冬.png");
+}
+.re2-item-back img {
+               height: 200px;
+				width: 280px;
+            }
+ .re2-item-front,.re2-item-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                -webkit-perspective: 1000;
+				backface-visibility: hidden;
+                -webkit-transition: all 1.5s;
+                -moz-transition: all 1.5s;
+                -ms-transition: all 1.5s;
+                -o-transition: all 1.5s;
+                box-shadow: rgba(50, 50, 50, 0.2) 0 0 15px;
+                overflow: hidden;
+            }
+			.re2-item-back {
+                position: relative;
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re2-item:hover .re2-item-front {
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re2-item:hover .re2-item-back {
+                transform: rotateY(-360deg);
+                -webkit-transform: rotateY(-360deg);
+            }
+
+            .re-box .re2-item dd {
+                text-align: center;
+                font-family: "微软雅黑";
+            }
+
+            .re2-item .re2-item-job {
+    margin: 2px 0;
+    font-size: 18px;
+    color: #303030;
+    line-height: 40px;
+    text-align: center;
+            }
+
+            .re2-item .re2-item-des {
+                padding: 0 12px;
+                font-size: 14px;
+                color: #939393;
+            }
+.bot-btn
+{
+    width: 1000px;
+    height: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+}
+.zhoubian ul li
+{
+    float: left;
+    width: 260px;
+    padding-right: 0px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.zhoubian ul li img
+{
+    width: 280px;
+   
+}
+.anniu
+{
+    position: absolute;
+    width: 1000px;
+    height: 590px;
+}
+.anniu ul li
+{
+    float: left;
+    margin-left: 111px;
+    padding-right: 65px;
+    padding-top: 167px;
+    width: 140px;
+    height: 140px;
+    margin-top: 2px;
+}
+.anniu ul li img
+{
+	width: 140px;
+}
+.foot{
+            width: 100%;
+            background-color: #c75427;
+        }
+        .foot-1{
+            width: 1000px;
+            height: 50px;
+            margin: 0 auto;
+            padding-top: 25px;
+
+        }
+/*
+        ul li {
+            list-style-type: none;
+            float: left;
+*/
+			
+        /*.foot .foot-1 .foot-1-2 ul li {*/
+        /*    list-style-type: none;*/
+        /*    float: left;*/
+        /*}*/
+        .foot-1-1{
+            width: 400px;
+            height: 20px;
+            margin: 0 auto;
+        }
+        .foot-1-1 ul li{
+			float: left;
+            width:200px ;
+        }
+		.foot-1-1 ul li a{
+			color: #272727;
+		}
+        .foot-1-2{
+            width:1200px;
+            height: 60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .foot-1-2 ul li {
+			float: left;
+            width: 100px;
+            line-height: 20px;
+            padding-right: 10px;
+            margin-left: 70px;
+        }
+.foot-1-2 ul li a{
+			color: #272727;
+		}
+.foot-1-2 ul li a:hover{
+			color:#FF4F00;
+		}
+
+		.foot-1-1 ul li a:hover{
+			color:#FF4F00;
+		}

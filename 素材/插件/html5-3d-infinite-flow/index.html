@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>阅读室</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="boxes">
+  <div class="box" style="--src: url(images/一粒粮食的故事.png)"><span>1</span><a href="一粒粮食的故事.html"><img src="images/一粒粮食的故事.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/壮士.png)"><span>2</span><a href="大坡界八壮士.html"><img src="images/壮士.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/杨开慧.png)"><span>3</span><a href="革命英雄杨开慧.html"><img src="images/杨开慧.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/阿凡达.png)"><span>4</span><a href="一部影片.html"><img src="images/阿凡达.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/一座书院.png)"><span>5</span><a href="一座书院.html"><img src="images/一座书院.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/十都万寿宫.png)"><span>6</span><a href="十都万寿宫.html"><img src="images/十都万寿宫.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/韶山五杰.png)"><span>7</span><a href="韶山五杰.html"><img src="images/韶山五杰.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/半条被子.png)"><span>8</span><a href="半条被子.html"><img src="images/半条被子.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/黄兴.png)"><span>9</span><a href="革命英雄杨黄兴.html"><img src="images/黄兴.png" alt="故事"/></a></div>
+  <div class="box" style="--src: url(images/粉文化.png)"><span>10</span><a href="嗦粉.html"><img src="images/粉文化.png" alt="故事"/></a></div>
+  <div class="controls">
+    <button class="next"><span>上一本</span>
+      <svg viewBox="0 0 448 512" width="100" title="Previous Album">
+        <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+      </svg>
+    </button>
+    <button class="prev"><span>下一本</span>
+      <svg viewBox="0 0 448 512" width="100" title="Next Album">
+        <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+<svg class="scroll-icon" viewBox="0 0 24 24">
+  <path fill="currentColor" d="M20 6H23L19 2L15 6H18V18H15L19 22L23 18H20V6M9 3.09C11.83 3.57 14 6.04 14 9H9V3.09M14 11V15C14 18.3 11.3 21 8 21S2 18.3 2 15V11H14M7 9H2C2 6.04 4.17 3.57 7 3.09V9Z"></path>
+</svg>
+<div class="drag-proxy"></div>
+<!-- partial -->
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>

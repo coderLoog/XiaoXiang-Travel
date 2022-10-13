@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<style type="text/css">
+		#da{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+		}
+		#xiao{
+    width: 100px;
+    height: 40px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function(){
+			var da = document.getElementById("da");
+			var xiao = document.getElementById("xiao");
+			da.onmousemove = function(event){
+				var x = window.event.clientX;
+				var y = window.event.clientY;
+				xiao.innerHTML = ("x="+x+", y="y);
+			};
+			
+		};
+	</script>
+</head>
+
+<body>
+	<div id="da"></div>
+	<div id="xiao"></div>
+</body>
+</html>

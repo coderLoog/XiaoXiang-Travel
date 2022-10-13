@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>红色基地</title>
+<style>
+	body{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+			background-image: linear-gradient(200deg,#fb3b3b,#fde4e4);
+	}
+            .re-item {
+                width: 220px;
+                height: 276px;
+                cursor: pointer;
+                position: relative;
+                perspective: 500;
+                -webkit-perspective: 500;
+            }
+            .re-item-front,
+            .re-item-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                -webkit-perspective: 1000;
+                /*backface-visibility: hidden;*/
+                -webkit-transition: all 1.5s;
+                -moz-transition: all 1.5s;
+                -ms-transition: all 1.5s;
+                -o-transition: all 1.5s;
+                box-shadow: rgba(50, 50, 50, 0.2) 0 0 15px;
+                overflow: hidden;
+            }
+	.re-item-front{
+		margin-top: 0;
+		z-index: 2;
+	}
+            .re-item-back {
+				background-color:#F3787A;
+                position: relative;
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+
+            .re-item:hover .re-item-front {
+				z-index: 0;
+                transform: rotateY(-180deg);
+                -webkit-transform: rotateY(-180deg);
+            }
+            .re-item:hover .re-item-back {
+				
+                transform: rotateY(-360deg);
+                -webkit-transform: rotateY(-360deg);
+            }
+
+            .re-box .re-item dd {
+                text-align: center;
+                font-family: "微软雅黑";
+            }
+
+            .re-item .re-item-job {
+                
+                font-size: 18px;
+                color: #303030;
+                line-height: 40px;
+            }
+
+            .re-item .re-item-des {
+                padding: 0 8px;
+                font-size: 14px;
+                color:#000000;
+            }
+        </style>
+    </head>
+	<body>
+        <div class="re-box">
+            <div class="re-item">
+                <dl class="re-item-front">
+					 <img src="图片/红色基地.png" alt="红色基地" />
+                </dl>
+                <div class="re-item-back">
+                    <dd class="re-item-job">红色基地</dd>
+                    <dd class="re-item-des">每个红色基地都是一部历史教科书、一个信仰熔铸点。全省发改系统首批35个红色教育基地经各市州推荐、省发改委实地考察确定，将成为各地发改部门开展“不忘初心、牢记使命”主题教育和党性教育、爱国主义教育的主基地。</dd>
+					<a href="https://baijiahao.baidu.com/s?id=1637958427012221900&wfr=spider&for=pc"><button type="button" class="join_btn open_modal" data-id="2">了解更多</button></a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

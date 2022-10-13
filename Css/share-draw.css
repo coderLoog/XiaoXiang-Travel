@@ -1,0 +1,65 @@
+/* /// POINTS AND DATA /// */
+
+#share_point_1 {top:0px;} 
+#share_data_1  {top:32px;}
+
+/* /// STYLES /// */
+
+#share_points li {
+	position:absolute;
+	z-index:9999999;	
+	background:#DDD0D2 url("../素材/images/share-arrow.png") no-repeat 10px 10px;
+	width:120px;
+	height:32px; 
+	overflow:hidden;
+	cursor:pointer;	
+    -webkit-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -khtml-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -moz-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -o-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+}
+
+#share_points li h1 {   
+    font-family:franklin-gothic-ext-comp-urw,sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:24px;
+    line-height:24px;
+    color:#D55C27;
+    text-shadow:none;
+}
+
+#share_data {position:relative;}
+
+#share_data li {
+    z-index:9999999;
+	position:absolute;
+	background-color:#DDD0D2;
+	width:100px;
+	height:auto;
+	padding:10px;
+	overflow:hidden;	
+    -webkit-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -khtml-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -moz-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    -o-box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    box-shadow:4px 4px 0px rgba(208, 194, 177, 0.75);
+    display:none;
+}
+
+.btn-wrapper {
+    width:100px;
+    height:20px;
+    overflow:hidden;    
+}
+
+.btn-wrapper-center {
+    width:100px;
+    height:20px;
+    padding:10px 0px 10px 0px;
+    border-top:rgb(208, 194, 177) dotted 1px;
+    border-bottom:rgb(208, 194, 177) dotted 1px;
+    margin:10px 0px 10px 0px;  
+    overflow:hidden;   
+}
